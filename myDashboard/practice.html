@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ID Generator</title>
+</head>
+<body>
+
+  <button id="generateBtn">Generate ID</button>
+  <div id="idDisplay"></div>
+
+  <script>
+    function generateID(length) {
+      var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+      var id = '';
+      for (var i = 0; i < length; i++) {
+        id += characters.charAt(Math.floor(Math.random() * characters.length));
+      }
+      return id;
+    }
+
+    document.getElementById('generateBtn').addEventListener('click', function() {
+      var generatedID = generateID(10); // Change the length as needed
+      document.getElementById('idDisplay').innerText = generatedID;
+    });
+  </script>
+
+</body>
+</html>

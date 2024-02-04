@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.loginContainer{
+	border: 5px solid gray;
+	height: 875px;
+	background-color: gray;
+	background-image: url("Pictures/login.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-clip: content-box;
+}
+
+.loginMain{
+	width: 30%;
+	padding-top: 200px;
+	display: flex;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: rgba(255, 255, 255, 0);
+}
+#loginBtn, #cancelBtn{
+    width: 200px;
+    background-color: #6495ED;
+    height: 40px;
+}
+#cancelBtn{
+    background-color: red;
+    margin-left: 20px;
+}
+
+
+.loginForm{
+	padding-left: 8%;
+	padding-top: 10%;
+}
+
+.inputEmail, .password{
+	 border: none;
+	border-bottom: 1px solid #ffffff;
+	outline: none;
+	height: 45px;
+	width: 500px;
+	font-size: larger;
+	background-color: transparent;
+	color: white;
+	
+}
+
+.login{
+	color: white;
+	margin-right: 100px;
+    padding-bottom: 100px;   
+	font-size: 30px;
+}
+
+.button{
+	display: flex;
+	margin-left: 50px;
+	height: 30px;
+}
+
+#button button{
+	color: beige;
+	margin-left: -30px;
+	height: 30px;
+	border: 1px solid white;
+	height: 50px;
+	width: 150px;
+	background-color:#6495ED;
+  
+}
+#button{
+	padding-right:80px;
+}
+#button1 button{
+	color: beige;
+	height: 30px;
+	border: 1px solid white;
+	height: 50px;
+	width: 150px;
+	background-color: rgb(235, 46, 46);
+}
+

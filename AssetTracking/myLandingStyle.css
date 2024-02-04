@@ -1,0 +1,119 @@
+
+.mainDiv{
+    width: 100%;
+    height: 100%;
+}
+
+.innerMainDiv{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 0;
+    box-sizing: border-box;
+        border: 1px solid;
+        overflow: hidden;
+}
+
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header{
+    position: fixed;
+    border-bottom: 1px solid gray;
+    display: flex;
+    width: 1200px;
+}
+
+.brand{
+    padding-left: 2%;
+    width: 30%;
+}
+
+.navigations{
+    padding-top: 3%;
+    width:800px;
+    text-align: right;
+}
+
+.navigations a{
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+    color: white;
+    text-decoration: none;
+    padding: 5%;
+}
+
+.background{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('Pictures/asset.jpg');
+}
+
+.emailContainer{
+    padding-top: 33%;
+    padding-left: 35%;
+    height: 300px;
+}
+
+
+.email{
+    position: fixed;
+    padding-top: 33%;
+    padding-left: 35%;
+}
+
+
+.subbutton{
+    height: 40px;
+    width: 100px;
+}
+
+.enterEmail{
+    height: 30px;
+    width: 350px;
+}
+
+.subbutton{
+    color: white;
+    background-color: gray;
+    height: 38px;
+}
+
+.about{
+    padding-bottom: 3%;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.about h1{
+    color: white;
+    border-bottom: 1px solid darkred;
+    padding-top: 10px;
+    transform: translateY(50px);
+}
+
+.aboutText{
+    border-bottom: 2px solid maroon;
+    text-align: justify;
+    padding-top: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-right: 5%;
+    margin-left: 5%;
+    color: rgba(210, 210, 210, 0.976);
+    font-size:  22px;
+
+}
+
+.aboutbackground{
+    padding-top: 2%;
+    background-color: #3f3f3fed			;
+    height: 85vh;
+}

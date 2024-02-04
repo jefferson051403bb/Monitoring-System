@@ -1,0 +1,1229 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mainDashboard{
+    display: flex;
+}
+#myWebIcon{
+    border-radius: 0px;
+}
+.sideBar{
+    background-color: #6495ED;
+    display: inline-block;
+    height: 100vh;
+    width: 15%;
+}
+#title{
+    padding-top: 40px;
+    color: white;
+}
+.dashboard_sidebar{
+    padding-top: 70px;
+    text-align: center;
+}
+.dashboard_sidebar span{
+    position: relative;
+    vertical-align: middle;
+}
+#h1{
+    font-size: 40px;
+    font-weight: 500px;
+}
+#myButton{
+    color: white;
+    height: 50px;
+    width: 200px;
+    background-color: #7393B3;
+}
+.sideBar h1{
+    line-height: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.content{
+    width: 85%;
+}
+.logout{
+    float: right;
+}
+.topbar ion-icon{
+    font-size: 2em;
+}
+.menu_list{
+    padding-top: 60%;
+}
+.menu_list i{
+    font-size: 2em;
+    color: black;
+}
+.menu_list a{
+    padding-top: 20px;
+    color: white;
+    vertical-align: middle ;
+    text-decoration: none;
+}
+.menu_list li:hover{
+    transition: 0.5s;
+    background-color: black; 
+}
+.menu_list li{
+    height: 50px;
+    top: 0;
+    position: relative;
+    padding: 5px 5px;
+}
+.editContainer{
+    height: 400px;
+}
+.display{
+    width: 100%;
+    position: fixed;
+    margin-left: 10px;
+    padding-top: 3%;
+    height: 700px;
+    overflow-y: auto;
+}
+.container{
+    height: 400px;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.laboratory{
+    display: inline-block;
+    cursor: pointer;
+} 
+
+.table{
+    margin-left: -10%;
+}
+#actionEd{
+    padding-bottom: 39px;
+    border: none;
+}
+ion-icon{
+    font-size: 30px;
+    color: black;
+}
+/* Dashboard */
+.display{
+    height: 890px;
+}
+.threeMainContainer{
+    margin-top: -20px;
+    display:  flex;
+}
+.totalLaboratoryDisplay{
+    padding-top: 20px;
+    height: 250px;
+    width: 350px;
+}
+.threeMainContainer h4{
+    /* color: white; */
+    text-align: center;
+}
+.totalLaboratoryDisplay,.totalAdminDisplay, .totalBrokenDisplay, .totalAssetDisplay, .totalSupplierDisplay{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+    padding-top: 20px;
+    height: 100px;
+    margin-left: 20px;
+    padding-left: 30px;
+    width: 250px;
+    background-color: #6495ED;
+    color: black;
+}
+.totalSupplierDisplay{
+    padding-left: 65px;
+}
+.totalAdminDisplay{
+    padding-left: 70px;
+}
+.countDisplayLab,.countDisplayAsset,.countDisplaySupp,.countDisplayBrok,.countDisplayAdm{
+    color: white;
+}
+.countDisplayBrok{
+    color: red;
+}
+.countDisplayLab{
+    margin-left: 80px;
+}
+.countDisplayAsset{
+    margin-left: 70px;
+}
+.countDisplaySupp{
+    margin-left: 50px;
+}
+.countDisplayBrok{
+    margin-left: 80px;
+}
+.countDisplayAdm{
+    margin-left: 40px;
+}
+.countDisplay h1{
+    font-size: 40px;
+}
+.threeMainContainerSecond{
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    width: 100%;
+}
+.threeMainContainerSecond h4{
+    /* color: white; */
+    text-align: center;
+}
+#dashboardText, #supplierText, #laboratoryText, #assetText, #adminText, #assetHistoryTxt{
+    color: white;
+    margin-top: -13%;
+    font-size: 20px;
+    margin-left: 22%;
+    font-weight: lighter;
+    
+}
+#dashboardText{
+    margin-left: 30%;
+}
+#supplierText{
+    margin-left: 32%;
+}
+#laboratoryText{
+    margin-left: 29%;
+}
+#assetText{
+    margin-left: 35%;
+}
+#adminText{
+    margin-left: 20%;
+}
+#assetHistoryTxt{
+    margin-left: 25%;
+}
+.assetTableDashboard{
+    height: 400px;
+}
+.dashboardTableContainer{
+    display: flex;
+    width: 100%;
+}
+.totalAssetTableDashboard,.totalLaboratoryTableDashboard,.totalAdminTableDashboard,.totalSupplierDashboard{
+    margin-top: 50px;
+    padding-top: 20px;
+    height: 400px;
+    overflow: hidden;
+    width: 660px;
+    margin-left: 1px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+#viewAllAssetDashboard{
+    position: relative;
+    height: 35px;
+    width: 100px;
+    border-radius: 0;
+    margin-left: 20px;
+    background-color: yellowgreen;
+}
+.assetTableDashboard{
+    margin-top: 20px;
+}
+#assetTotalTitleDashboard{
+    text-align: center;
+    margin-top: -30px;
+}
+.dashboardTables{
+    width: 660px;
+    margin-left: 10px;
+    background-color: #fff;
+}
+.totalLaboratoryTableDashboard{
+    width: 680px;
+    margin-left: 20px;
+}
+#laboratoryTotalDashboard,.adminTableDashboard{
+    margin-top: 20px;
+}
+.totalAdminTableDashboard, .totalSupplierDashboard{
+    width: 680px;
+    transform: translateY(-35px);
+}
+.totalAssetTableDashboard{
+    width: 680px;
+}
+.adminTableDashboard{
+    background-color: #fff;
+    width: 660px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+.secondDashboardTableContainer{
+    display: flex;
+}
+.totalSupplierDashboard{
+    margin-left: 20px;
+}
+.totalSupplierDashboardTable{
+    margin-top: 20px;
+    background-color: #fff;
+}
+#assetDashboardRow{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
+.laboratoryColumnMain{
+    transform: translateY(-12px);
+}
+#dashboardColumn{
+    background-color: #73C2FB;
+}
+.dashboardColName{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.laboratoryDashboardDisplay{
+    margin-top: 20px;
+}
+#labDashRow{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+/* laboratory form */
+#adminName{
+    margin-left: 28px;
+}
+#subButton{
+    height: 30px;
+    text-align: center;
+    margin-left: 60px;
+    background-color: #7393B3;
+}
+.laboratoryForm-hidden{
+    height: 500px;
+}
+#laboratoryForm-hidden{
+    padding-top: 50px;
+    height: 220px;
+}
+#editLaboratoryForm-hidden{
+    padding-top: 50px;
+    height: 220px;
+    display: none;
+}
+#deleteLaboratory-hidden{
+    padding-top: 50px;
+    height: 220px;
+    display: none;
+}
+.formContainer button, #editSave{
+    height: 40px;
+    width: 200px;
+    background-color: #6495ED;
+}
+.formContainer input, .editContainer input, .deleteLab input{
+    height: 40px;
+    width: 300px;
+}
+.selected {
+    border-color: blue;
+}
+#myBut{
+    background-color: aqua;
+    height: 100px;
+}
+.editBtn{
+    margin-top: 20px;
+    width: 200px;
+    height: 35px;
+    background-color: transparent;
+}
+.labName{
+    font-size: 20px;
+}
+.enterBtn{
+    width: 200px;
+    height: 35px;
+    margin-top: 50px;
+    background-color: transparent;
+}
+.deleteBtn{
+    margin-top: 20px;
+    width: 200px;
+    height: 35px;
+    background-color: transparent;
+}
+.newLab{
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    width: 250px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+/* add laboratory page */
+.popup-formLab {
+    height: 600px;
+    width: 800px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    z-index: 9999;
+}
+.display button {
+    background-color: #6495ED;
+    height: 40px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+#laboratoryRow{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+#myFormSup label{
+    font-size: 20px;
+}
+#laboratoryAddName{
+    height: 35px;
+    width: 400px;
+    margin-left: 20px;
+}
+#adminLab{
+    height: 35px;
+    width: 400px;
+    margin-left: 47px;
+}
+#dateLabCreate{
+    height: 35px;
+    width: 400px;
+    margin-left: 50px;
+}
+#optionsAdmin{
+    height: 35px;
+    width: 400px;
+    margin-left: 29px;
+}
+#optionLab{
+    height: 35px;
+    width: 373px;
+    margin-left: 119px;
+}
+#withoutSpace{
+    display: none;
+}
+#myLaboratoryTable{
+    margin-top: 20px;
+}
+.laboratoryRowTable{
+    background-color: #6CB4EE;
+}
+.laboratoryAction{
+    width: 290px;
+}
+#editLabButton, #deleteLabBtn{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
+#laboratoryCol{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.laboratoryCol{
+    width: 300px;
+}
+#deleteLabBtn{
+    background-color: red;
+}
+.labTableContainer{
+    margin-left: 30px;
+    margin-top: 30px;
+    overflow-y: auto;
+    height: 620px;
+    width: 80%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 10px;
+}
+.actionAss{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Supplier Page*/
+.popup-form {
+    height: 600px;
+    width: 800px;
+    overflow-y: auto;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(189, 8, 8, 0.2);
+    z-index: 9999;
+}
+.suppFormContainer{
+    padding-top: 20px;
+}
+#cancelSuppBut{
+    width: 200px;
+    background-color: red;
+    height: 42px;
+    margin-top: 30px;
+}
+.myFormSup{
+    width: 100%;
+    display: flex;
+}
+.fillSecondRow{
+    float: right;
+    width: 50%;
+    margin-top: -154px;
+}
+
+.fillFirstRow{
+    width: 50%;
+}
+#supFName, #supNumber, #supLName, #supEmail, #companyName{
+    height: 35px;
+    width: 350px;
+}
+#suppSubmit{
+    height: 40px;
+    width: 200px;
+    background-color: #7393B3;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 250px;
+}
+.addressContainer{
+    margin-top: 20px;
+}
+tr{
+    text-align: center;
+}
+#deleteBtnSup, #suppEditBtn{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
+#deleteBtnSup{
+    background-color: red;
+}
+#supIdDisplay{
+    border: none;
+    font-size: 20px;
+    margin-left: 40px;
+}
+#labIdDisplay{
+    margin-left: 132px;
+    border: none;
+}
+#typePostLab, #oldNameDisplay{
+    display: none;
+}
+#addLabTable{
+    border: 1px solid white;
+    background-color: #6495ED;
+    height: 40px;
+    width: 200px;
+    color: white;
+    border-radius: 40px;
+}
+#myFormLab{
+    margin-top: 46px;
+}
+.suppTableDisplay{
+    margin-top: 30px;
+    overflow-y: auto;
+    height: 620px;
+    margin-left: 30px;
+    width: 80%;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 10px;
+}
+#suppCol{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#supplierRow{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.supplierTableHeader{
+    background-color: #73C2FB;
+}
+#addSuppLink{
+    margin-left: 473px;
+}
+.errorSupDisplay{
+    display: none;
+    text-align: center;
+    height: 35px;
+    background-color: green;
+}
+.errorSupDisplay h6{
+    transform: translateY(7px);
+    color: white;
+}
+
+/* Asset Page */
+.popup-formAsset {
+    max-height: 1000px;
+    width: 800px;
+    overflow-y: auto    ;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(189, 8, 8, 0.2);
+    z-index: 9999;
+}
+
+#optionsAssets, #optionsType , #nameOfAsset, #description, #brandOfAsset{
+    height: 35px;
+    width: 370px;
+}
+#optionsSupAsset{
+    height: 35px;
+    width: 373px;
+    margin-left: 69px;
+}
+#cancelSup{
+    background-color: red;
+    width: 100px;
+}
+#quantityField{
+    text-align: center;
+    height: 35px;
+    width: 50px;
+}
+#addQuant{
+    width: 50px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    height: 35px;
+    background-color: #6495ED;
+    border: white;
+}
+#minusQuant{
+    background-color: red;
+    color: black;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+    height: 35px;
+    border: white;
+}
+#brokenOpt{
+    display: none;
+    color: red;
+}
+#assetId{
+    text-align: center;
+    width: 50px;
+    height: 35px;
+    margin-left: 80px;
+}
+#assetId{
+    pointer-events: none;
+    border: none;
+    width: 50px;
+}
+#idDisplayDiv{
+    display: none;
+    width: 400px;
+}
+#postType{
+    display: none;
+}
+.editButtonAsset{
+    height: 35px;
+    text-decoration: none;
+}
+#editAssetButton{
+    width: 100px;
+    border-radius: 0;
+}
+#deleteButton{
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+}
+#typePost{
+    display: none;
+}
+#cancelSupAsset{
+    width: 200px;
+    background-color: red;
+    transform: translateY(-39px);
+    margin-left: 210px;
+}
+.buttonForm{
+    margin-top: 14px;
+}
+#assignButtonLab{
+    height: 40px;
+    width: 100px;
+    border-radius: 0;
+    background-color: green;
+}
+.assignedLabOpt{
+    display: none;
+}
+#optionLabAsset{
+    height: 35px;
+    margin-left: 123px;
+    width: 375px;
+}
+.assetTableDisplay{
+    margin-left: 30px;
+    margin-top: 30px;
+    overflow-y: auto;
+    height: 620px;
+    width: 80%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 10px;
+}
+.assetRowDisplay{
+    background-color: #6CB4EE;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.assetTable{
+    width: 100%;
+    overflow: scroll;
+}
+.table-rowAsset{
+    padding-top: 20px;
+}
+#assetRow{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
+.popup-formAssetDisplay {
+    height: 700px;
+    width: 800px;
+    overflow-y: auto;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(189, 8, 8, 0.2);
+    z-index: 9999;
+}
+.assetSpecificationDisplay{
+    padding-top: 50px;
+    position: fixed;
+}
+#cancelAssetDisplay{
+    width: 200px;
+    background-color: red;
+}
+.statusAsset{
+    color: black;
+}
+#actionBtns{
+    padding-top: 15px;
+    width: 400px;
+}
+#typeDisplayAss,#brandLblDisplay, #statusDisplayAss,#descriptionDisplayAss, #companyDisplayAss, #contactPersonAss{
+    background-color: lightgrey;
+    height: 30px;
+    width: 200px;
+    color: black;
+    padding-top: 5px;
+    text-align: center;
+}
+#qrcode{
+    margin-top: -600px;
+    margin-left: 367px;
+}
+#qrCodeGenerate{
+    margin-top: 70px;
+}
+.listAssetTitle{
+    margin-top: 50px;
+}
+
+/* Admin Page */
+.popup-formAdmin {
+    height: 600px;
+    width: 800px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(189, 8, 8, 0.2);
+    z-index: 9999;
+}
+.adminIdDisplayDiv{
+    padding-bottom: 30px;
+    display: none;
+}
+#adminIdDisplay{
+    margin-left: 30px;
+    border: none;
+    font-size: 18px;
+}
+#typePostAdmin{
+    display: none;
+}
+#submitAdmin{
+    margin-top: 109px;
+}
+.adminFormContainer{
+    padding-top: 50px;
+}
+.formAdmin{
+    margin-top: 23px;
+} 
+#editAdminBtn, #deleleteAdminBtn{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+#deleleteAdminBtn{
+    background-color: red;
+}
+.adminTableDisplay{
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    overflow-y: auto;
+    height: 680px;
+    width: 80%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.adminHeaderTable{
+    background-color: #73C2FB;
+}
+#adminCol{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#addAdminBtn{
+    margin-left: 461px;
+}
+.actionStockBtn{
+    width: 400px;
+}
+
+/* Inside Laboratory */
+
+#laboratoryName{
+    font-size:50px;
+}
+.displayAss{
+    margin-left: 1%;
+}
+.insideLabDisplayTotal{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.totalBrokenInside {
+    background-image: url("images/broke.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+}
+.requestedAsset {
+    background-image: url("images/request.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    margin-left: 20px;
+}
+.totalAssetInside{
+    margin-left: 5%;
+    background-image: url("images/assetbackground.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.totalAssetInside, .totalBrokenInside ,.requestedAsset {
+    text-align: center;
+    font-size: 30px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    height: 200px;
+    color: yellow;
+}
+.totalAssetInside h5, .totalBrokenInside h5, .requestedAsset h5{
+    font-size: 100px;
+    color: white;
+}
+.tableDisplay{
+    padding-top: 2%;
+    display: flex;
+    width: 100%;
+}
+.tableAssetDisplay, .logsTable{
+    padding-top: 20px;
+    width: 50%;
+    height: 499px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    overflow: hidden;
+}
+.logsTable{
+    margin-left: 20px;
+}
+#insAsset{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#laboratoryRowAss{
+    padding-top: 30px;
+}
+#viewAllBtnIns{
+    width: 300px;
+    margin-top: 508px;
+    color: white;
+    margin-left: 10%;
+    background-color: #6495ED;
+    border: 1px solid white;
+    height: 35px;
+    position: fixed;
+}
+#insListOfAsset{
+    transform: translateX(270px);
+}
+#recentlyTitleIns{
+    margin-left: 200px;
+}
+
+/* view inside lab page */
+.popup-formViewLab {
+    height: 600px;
+    width: 800px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(189, 8, 8, 0.2);
+    z-index: 9999;
+}
+#assetIdView{
+    transform: translate(197px, -32px);
+    border: none;
+}
+.insideLabTable{
+    margin-top: 40px;
+    width: 100%;
+}
+.tdIns{
+    padding-top: 30px;
+}
+#deleteAssetInsideLab, #editAssetInsideLab{
+    width: 100px;
+    border-radius: 5px;
+}
+#deleteAssetInsideLab{
+    background-color: red;
+}
+#actionInsideLab{
+    width: 10px;
+}
+#insidelaboratoryName{
+    font-size: 40px;
+}
+#nameOfAssetView{
+    height: 35px;
+    width: 500px;
+}
+#optionsTypeView, #optionsAssetsView{
+    height: 40px;
+    width: 500px;
+}
+#optionsTypeView{
+    cursor: not-allowed;
+    pointer-events: none;
+    border: none;
+}
+.buttonFormView{
+    margin-top: 119px;
+}
+#myFormAssetView{
+    padding-top: 50px;
+}
+#postTypeView{
+    display: none;
+}
+#assignedAss{
+    height: 35px;
+    width: 300px;
+}
+.popup-formViewReqTable {
+    overflow-y: auto;
+    height: 800px;
+    width: 1000px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(189, 8, 8, 0.2);
+    z-index: 9999;
+}
+.tableReqAssetLab{
+    margin-top: 60px;
+}
+#cancelBtnShowReqTbl{
+    background-color: red;
+    margin-bottom: 20px;
+}
+#statusReqInsideSelect{
+    border: none;
+    background-color: transparent;
+}
+#popupFormViewLabReqTable{
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    overflow-y: auto;
+    height: 680px;
+    width: 80%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#descriptionAssetIns{
+    width: 400px;
+}
+#ActionAssetIns{
+    width: 250px;
+    word-wrap: break-word;
+}
+#selectStatusAssetIns{
+    width: 150px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#statusAssetIns{
+    width: 200px;
+}
+#typeAssetIns,#idAssetIns,#brandAssetIns{
+    width: 100px;
+}
+.viewAssetInsideLab{
+    margin-left: 30px;
+    margin-top: 30px;
+    overflow-y: auto;
+    height: 580px;
+    width: 80%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 10px;
+}
+.viewInsideTableHeader{
+    background-color: #73C2FB;
+}
+#viewInsideCol{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#viewInsideRow{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+/* stock asset page */
+.stocksAssetTableDisplay{
+    margin-top: 30px;
+    overflow-y: auto;
+    height: 650px;
+    margin-left: 30px;
+    width: 80%;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 10px;
+}
+.assetStocksHeader{
+    background-color: #73C2FB;
+}
+#requestAssetBtn{
+    width: 250px;
+}
+#cancelAsset{
+    background-color: red;
+}
+#stocksCol{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#stocksRow{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Request Asset Page */
+#quantityFieldView{
+    height: 35px;
+    width: 50px;
+    text-align: center;
+}
+#addQuantView, #minusQuantView{
+    height: 35px;
+    width: 50px;
+    background-color: #6495ED;
+    border: none;
+}
+#minusQuantView{
+    background-color: red;
+}
+.reqTableRow{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.status-dropdown{
+    border: transparent;
+    background-color: transparent;
+    width: 150px;
+    text-align: center;
+}
+.assetTableRequestDisplay{
+    margin-top: 30px;
+    overflow-y: auto;
+    height: 700px;
+    margin-left: 30px;
+    width: 80%;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 10px;
+}
+.requestAssetDisplayHeader{
+    background-color: #73C2FB;
+}
+#reqAssetCol{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* Request Assign Page */
+.popup-formAssetReq {
+    height: 600px;
+    width: 800px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(189, 8, 8, 0.2);
+    z-index: 9999;
+}
+#assignReq, #editReq, #deleteReq{
+    width: 100px;
+    border-radius: 5px;
+}
+#assignReq{
+    background-color: green;
+}
+#deleteReq{
+    background-color: red;
+}
+.reqFormContainer{
+    padding-top: 58px;
+}
+#titleOfFormReq{
+    margin-top: 36px;
+}
+#nameOfAssetReqs{
+    width: 371px;
+    height: 35px;
+}
+#idDisplayDivView{
+    display: none;
+}
+#nameReq{
+    height: 35px;
+    width: 300px;
+}
+.supplierOptionReq{
+    display: none;
+}
+/* .supplierOption{
+    display: none;
+} */
+
+/* History Asset Page */
+.historyAssetDisplay{
+    padding-top: 20px;
+    max-height: 900px;
+    width: 85%;
+    overflow-y: auto;
+}
+.nameOfTrans{
+    width: 200px;
+}
+#assetHistoryCol{
+    font-size: 20px;
+}
+.rowHistory{
+    padding-bottom: 30px;
+}
+#rowHistory{
+    width: 250px;
+}
+.assetActivtitiesTitle{
+    margin-top: 50px;
+}
+

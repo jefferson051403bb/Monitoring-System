@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.loginContainer{
+    background-image: url('Pictures/loginbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 885px;
+}
+
+.login h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+
+#singup{
+    color: black;
+    font-size: 300%;
+    margin-top: -30px;
+}
+
+.signup{
+    display: flex;
+    width: 70%;
+    padding-top: 4%;
+    margin-right: 20%;
+    margin-left: 15%;
+    height: 650px;
+    background-color: white;
+}
+
+.formcontainer{
+    width: 40%;
+    padding-left: 10%;
+    padding-top: 20px;
+}
+.registerFormContainer{
+    margin-top: -60px;
+}
+#roleSelector{
+    height: 35px;
+    width: 300px;
+}
+
+#singup{
+    padding-left: 10%;
+    padding-bottom: 100px;
+}
+
+.inputFName,.inputNum,.inputLName, .inputEmail, .password, .repassword{
+    height: 30px;
+    width: 300px;
+     border: none;
+    border-bottom: 1px solid #000; /* You can change the color to your preference */
+    outline: none;
+}
+
+.button{
+    padding-top: 5%;
+    padding-left: 15%;
+}
+
+#button{
+    height: 40px;
+    width: 100px;
+}
+
+.image{
+    padding-top: 15%;
+    padding-left: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 400px;
+}
+
+#haveAccount{
+    padding-top: 4%;
+}
+
+.account{
+    padding-top: 20%;
+    padding-left: 40%;
+}
+.login{
+    padding-bottom: 40px;
+}
