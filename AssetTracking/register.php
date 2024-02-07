@@ -225,32 +225,35 @@ if(isset($_POST['operations'])) {
 			roleSelector.style.border = "2px solid red"
 		}
 
-		if(error === true){
-			var xhr = new XMLHttpRequest();
-			xhr.open("POST", "", true);
-			xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-			xhr.send("operations=add"+"&fname="+fname+"&lname="+lname+"&number="+number+"&email="+email+"&password="+newPassword+"&role="+role);
+		 if (error === true) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "", true);
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.send("operations=add"+"&fname="+fname+"&lname="+lname+"&number="+number+"&email="+email+"&password="+newPassword+"&role="+role);
 
-			xhr.onreadystatechange = function() {
-				if (xhr.readyState === XMLHttpRequest.DONE) {
-					if (xhr.status === 200) {
-						// console.log(xhr.responseText);
-						// location.reload();
-					} else {
-						console.error('There was a problem with the request.');
-					}
-				}
-			};
-			inputFName.value = "";
-			inputLName.value = "";
-			numberInput.value = "";
-			inputFName.value = "";
-			inputEmail.value = "";
-			repassword.value = "";
-			password.value = "";
-			roleSelector.value = "select";
-		}
-	}
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                if (xhr.status === 200) {
+                    // Registration successful, redirect to login page
+                    window.location.href = "http://localhost/asset/AssetTracking/login.php";
+                } else {
+                    console.error('There was a problem with the request.');
+                }
+            }
+        };
+
+        // Clear input fields after successful registration
+        inputFName.value = "";
+        inputLName.value = "";
+        numberInput.value = "";
+        inputFName.value = "";
+        inputEmail.value = "";
+        repassword.value = "";
+        password.value = "";
+        roleSelector.value = "select";
+    }
+}
+
 
 
 	</script>
