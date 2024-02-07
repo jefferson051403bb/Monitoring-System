@@ -234,8 +234,7 @@ if(isset($_POST['operations'])) {
 			xhr.onreadystatechange = function() {
 				if (xhr.readyState === XMLHttpRequest.DONE) {
 					if (xhr.status === 200) {
-						// console.log(xhr.responseText);
-						// location.reload();
+						  window.location.href = "http://localhost/Monitoring-System/AssetTracking/login.php";
 					} else {
 						console.error('There was a problem with the request.');
 					}
